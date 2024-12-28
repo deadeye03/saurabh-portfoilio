@@ -3,6 +3,7 @@ import { useRef, useState } from 'react';
 
 import useAlert from '../hooks/useAlert.js';
 import Alert from '../components/Alert.jsx';
+import { meta } from '@eslint/js';
 
 const Contact = () => {
   const formRef = useRef();
@@ -19,11 +20,11 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-
+     
     emailjs
       .send(
         'service_0w5a86v',
-        'template_igh58gs',
+        'template_kx88d1f',
         {
           from_name: form.name,
           to_name: 'Saurabh kumar',
