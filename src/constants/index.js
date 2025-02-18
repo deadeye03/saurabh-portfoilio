@@ -58,6 +58,48 @@ export const navLinks = [
   
   export const myProjects = [
     {
+      title: 'Sarthi AI – AI-Powered Career Coach',
+      desc: 'Developed Sarthi AI, a smart career platform that provides automated industry insights, interview prep, resume building, and ATS optimization. Ensured smooth and efficient data processing with scheduled automation and real-time insights.',
+      subdesc:
+        'Built using Next.js, Inngest, Prisma, PostgreSQL, Tailwind CSS, React.js, PiChart, and shadcn/ui for a seamless user experience.',
+      href: 'https://sarthi-ai-two.vercel.app/',
+      texture: '/textures/project/sarthi-ai.mp4',
+      logo: '/assets/sarthi1.png',
+      logoStyle: {
+        backgroundColor: '#2A1816',
+        border: '0.2px solid #36201D',
+        boxShadow: '0px 0px 60px 0px #AA3C304D',
+      },
+      spotlight: '/assets/spotlight3.png',
+      tags: [
+        {
+          id: 1,
+          name: 'Next.js',
+          path: '/assets/nextjs.svg',
+        },
+         {
+           id: 5,
+           name: 'React.js',
+          path: '/assets/react.svg',
+        },
+        {
+          id: 2,
+          name: 'TailwindCSS',
+          path: 'assets/tailwindcss.png',
+        },
+        {
+          id: 3,
+          name: 'TypeScript',
+          path: '/assets/typescript.png',
+        },
+        {
+          id: 4,
+          name: 'Framer Motion',
+          path: '/assets/framer.png',
+        },
+      ],
+    },
+    {
       title: 'Juggad-courses - Free Online Courses Platform',
       desc: 'Juggad Courses is revolutinary Online Learning Platform that empowers learners with a vast array of courses, ensuring a seamless and engaging learning experience. It offers a range of features, including a user-friendly interface and you can get free courses from udemy in my First-500 section . You can also request a new courses which i provide you free of cost.',
       subdesc:
